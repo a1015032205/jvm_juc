@@ -1,0 +1,17 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(Î€øúÿÿÿÿ8õœÃ¢.
+n	java:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+n	java:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+o	java:S109"SAssign this magic number 10 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+o	java:S109"SAssign this magic number 11 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¤ÓÈ8õœÃ¢.
+n	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+I
+java:S2039",Explicitly declare the visibility for "res".(·¢Şù8¨ŠÚÌ©.
+n	java:S109"RAssign this magic number 6 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+n	java:S109"RAssign this magic number 4 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+n	java:S109"RAssign this magic number 7 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+n	java:S109"RAssign this magic number 8 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+n	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(•ÕÛ»8¨ŠÚÌ©.
+K
+java:S5413(")Verify that "remove()" is used correctly.(ç“—”şÿÿÿÿ8õœÃ¢.

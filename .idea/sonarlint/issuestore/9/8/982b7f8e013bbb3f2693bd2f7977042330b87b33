@@ -1,0 +1,11 @@
+
+>
+java:S1068"(Remove this unused "name" private field.(Ë¥¼
+\
+java:S2057"?Add a "static final long serialVersionUID" field to this class.(ôöî¢8§ŠÚÌ©.
+B
+java:S1068"'Remove this unused "age" private field.(‘„û»øÿÿÿÿ
+A
+java:S1068"&Remove this unused "id" private field.(â¼°Ñûÿÿÿÿ
+W
+java:S1258":Add a constructor to the class, or provide default values.(ôöî¢8§ŠÚÌ©.

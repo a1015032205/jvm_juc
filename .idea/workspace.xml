@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1awjkYtbGGuCsnDejyr8ni2J4C9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HOTFIX_customHotfixCommitMessage_text" value="Tagging hotfix %name%" />
+    <property name="JavaClassFindUsagesOptions.isSearchForTextOccurrences" value="false" />
+    <property name="RELEASE_customTagCommitMessage_text" value="Tagging version %name%" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.demo1" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1621351907000" />
+                <option name="domain" value="baidu.com" />
+                <option name="name" value="BAIDUID" />
+                <option name="path" value="/" />
+                <option name="value" value="F244D26A470F92A582F962CA0E376B9E:FG=1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.baidu.com" />
+                <option name="name" value="BD_NOT_HTTPS" />
+                <option name="path" value="/" />
+                <option name="value" value="1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2145916555000" />
+                <option name="domain" value="baidu.com" />
+                <option name="name" value="BIDUPSID" />
+                <option name="path" value="/" />
+                <option name="value" value="F244D26A470F92A5FE2ADCA89B5BCE30" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2145916555000" />
+                <option name="domain" value="baidu.com" />
+                <option name="name" value="PSTM" />
+                <option name="path" value="/" />
+                <option name="value" value="1589815907" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://httpbin.org/ip" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.baidu.com/s" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="ie" />
+                <option name="value" value="utf-8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_bp" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_idx" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="tn" />
+                <option name="value" value="baidu" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="wd" />
+                <option name="value" value="IDEA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="fenlei" />
+                <option name="value" value="256" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="oq" />
+                <option name="value" value="idea%202019%20.2%20%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%20%E6%80%8E%E4%B9%88%E7%94%A8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_pq" />
+                <option name="value" value="81419203001fa401" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_t" />
+                <option name="value" value="59420p62g9/ckcMnPQ5FG9Vfe3nj6Zdc7HYalcfpUaV6XJ1S0FbygYvF+dU" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rqlang" />
+                <option name="value" value="cn" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_enter" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_dl" />
+                <option name="value" value="tb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_btype" />
+                <option name="value" value="t" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="inputT" />
+                <option name="value" value="1347" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_sug3" />
+                <option name="value" value="107" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_sug1" />
+                <option name="value" value="34" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_sug7" />
+                <option name="value" value="100" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_sug2" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_sug4" />
+                <option name="value" value="1347" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rsv_sug" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SaleTicket">
+    <configuration name="CodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.jvm.CodeBlock" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JvmInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.jvm.JvmInfo" />
+      <module name="java8" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+PrintGCDetails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.SaleTicket" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTwoStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.threaddemo.ThreadTwoStart" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.threaddemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jmm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.jvm.jmm" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeBlock" />
+      <item itemvalue="Application.JvmInfo" />
+      <item itemvalue="Application.ThreadTwoStart" />
+      <item itemvalue="Application.jmm" />
+      <item itemvalue="Application.SaleTicket" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SaleTicket" />
+        <item itemvalue="Application.jmm" />
+        <item itemvalue="Application.ThreadTwoStart" />
+        <item itemvalue="Application.JvmInfo" />
+        <item itemvalue="Application.CodeBlock" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\秒度\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="" />
+      <created>1587653694203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587653694203</updated>
+      <workItem from="1587653700742" duration="2228000" />
+      <workItem from="1589455581636" duration="1008000" />
+      <workItem from="1589800684592" duration="4618000" />
+      <workItem from="1589815184272" duration="802000" />
+      <workItem from="1591714672351" duration="927000" />
+      <workItem from="1591786187057" duration="4874000" />
+      <workItem from="1591791278544" duration="3110000" />
+      <workItem from="1592733182871" duration="1674000" />
+      <workItem from="1594038835759" duration="862000" />
+      <workItem from="1596024571520" duration="4728000" />
+      <workItem from="1602763922026" duration="4623000" />
+      <workItem from="1605022662398" duration="3812000" />
+      <workItem from="1605191504144" duration="745000" />
+      <workItem from="1605532889132" duration="4924000" />
+      <workItem from="1605618888363" duration="4475000" />
+      <workItem from="1605699107408" duration="11884000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1605714340457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605714340457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1555" y="117" width="877" height="524" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605620572536">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1555" y="117" width="877" height="524" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605620572536" />
+    <state x="1085" y="376" key="#com.intellij.ide.util.MemberChooser" timestamp="1605704657013">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="376" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1605704657013" />
+    <state x="1088" y="438" key="#toString()_Generation_Settings" timestamp="1605022833186">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1088" y="438" key="#toString()_Generation_Settings/0.0.2560.1400@0.0.2560.1400" timestamp="1605022833186" />
+    <state x="878" y="178" key="CommitChangelistDialog2" timestamp="1605714339833">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="178" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714339833" />
+    <state width="420" height="630" key="DebuggerActiveHint" timestamp="1605535038031">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="420" height="630" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1605535038031" />
+    <state width="2516" height="387" key="GridCell.Tab.0.bottom" timestamp="1605714342863">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
+    <state width="2516" height="387" key="GridCell.Tab.0.center" timestamp="1605714342863">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
+    <state width="2516" height="387" key="GridCell.Tab.0.left" timestamp="1605714342863">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
+    <state width="2516" height="387" key="GridCell.Tab.0.right" timestamp="1605714342863">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
+    <state width="2516" height="558" key="GridCell.Tab.1.bottom" timestamp="1605628124249">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="558" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
+    <state width="2516" height="558" key="GridCell.Tab.1.center" timestamp="1605628124249">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="558" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
+    <state width="2516" height="558" key="GridCell.Tab.1.left" timestamp="1605628124249">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="558" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
+    <state width="2516" height="558" key="GridCell.Tab.1.right" timestamp="1605628124249">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="558" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
+    <state x="860" y="434" key="IDE.errors.dialog" timestamp="1602768737804">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="860" y="434" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602768737804" />
+    <state x="119" y="71" width="2373" height="1224" key="SettingsEditor" timestamp="1605714687682">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="119" y="71" width="2373" height="1224" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605714687682" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1605714985688">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714985688" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605714136759">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605714136759" />
+    <state x="1082" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605714307515">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1082" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714307515" />
+    <state x="1081" y="600" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605715001875">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1081" y="600" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605715001875" />
+    <state x="1069" y="550" width="564" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602768669006">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1069" y="550" width="564" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602768669006" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1602767715902">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602767715902" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605543287290">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605543287290" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="java8" type="b2602c69:ProjectViewProjectNode" />
+        <item name="java8" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java8$Demo1.ic" NAME="Demo1 Coverage Results" MODIFIED="1589814582811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.demo1.*</FILTER>
+    </SUITE>
+  </component>
+</project>

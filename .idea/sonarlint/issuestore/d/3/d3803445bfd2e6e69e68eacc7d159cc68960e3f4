@@ -1,0 +1,16 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8œŒÎâÒ.
+
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8ÂÀáÒ.
+Q
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8ÃÀ‡ãÒ.
+J
+java:S1481"(Remove this unused "str" local variable.(ƒ«¢¬úÿÿÿÿ8ÃÙ‡ãÒ.
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ŠñÏâÒ.
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8Ğ°‘ãÒ.
+]	java:S125"<This block of commented-out lines of code should be removed.(íÓÉÍşÿÿÿÿ8°¾¡ãÒ.
+M
+java:S1481"+Remove this unused "buffer" local variable.(¨âàøÿÿÿÿ8ÃÀ‡ãÒ.

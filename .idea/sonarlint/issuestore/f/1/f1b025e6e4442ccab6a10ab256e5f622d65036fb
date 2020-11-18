@@ -1,0 +1,23 @@
+
+h
+java:S2975+"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 
+K
+java:S18746"0Remove this use of "finalize"; it is deprecated.(¯¶ú“üÿÿÿÿ
+B
+java:S1068"'Remove this unused "add" private field.(ó„Ÿ²üÿÿÿÿ
+=
+java:S1185+"(Remove this method to simply inherit it.(™”” 
+C
+java:S11855"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ
+a
+java:S2057"?Add a "static final long serialVersionUID" field to this class.(¥Ìéƒøÿÿÿÿ8©ŠÚÌ©.
+A
+java:S1068"&Remove this unused "id" private field.(â¼°Ñûÿÿÿÿ
+H
+java:S11135"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯Ğôà
+e
+java:S18745"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÖÒ˜Ùùÿÿÿÿ
+D
+java:S1068")Remove this unused "score" private field.(ÉëŞüÿÿÿÿ
