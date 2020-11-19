@@ -27,8 +27,8 @@ public class Ticket {
     }
 
     public void send() {
-        lock.lock();
         String name = Thread.currentThread().getName();
+        lock.lock();
         try {
             if (count > 0) {
                 //  notifyAll();
@@ -70,8 +70,8 @@ public class Ticket {
     }*/
 
     public void increment() {
-        lock.lock();
         String name = Thread.currentThread().getName();
+        lock.lock();
         try {
             while (size == 1) {
                 condition.await();
@@ -86,8 +86,8 @@ public class Ticket {
     }
 
     public void decrement() {
-        lock.lock();
         String name = Thread.currentThread().getName();
+        lock.lock();
         try {
             while (size == 0) {
                 condition.await();
