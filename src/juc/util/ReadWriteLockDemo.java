@@ -49,7 +49,7 @@ class MyMap {
 
 }
 
-public class Demo {
+public class ReadWriteLockDemo {
     public static void main(String[] args) {
         MyMap myMap = new MyMap();
         for (int i = 1; i <= 5; i++) {
