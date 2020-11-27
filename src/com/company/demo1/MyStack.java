@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  * @Description: HashMap8
  */
 
-public class Tets8 {
+public class MyStack {
     public static void main(String[] args) {
         StringBuffer buffer = new StringBuffer();
         String str = "hello world ！！！";
