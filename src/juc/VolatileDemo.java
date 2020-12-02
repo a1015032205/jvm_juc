@@ -1,6 +1,7 @@
 package juc;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @Author: 秒度
@@ -26,9 +27,20 @@ import java.util.concurrent.TimeUnit;
 class MyData {
 
     volatile int number = 0;
+    AtomicInteger atomicInteger = new AtomicInteger();
 
     public void addTo60() {
         this.number = 60;
+    }
+
+    public void add() {
+        // i++不是原子操作
+        number++;
+    }
+
+    public void atomicAdd() {
+        // 相当于 atomicInter ++
+        atomicInteger.getAndIncrement();
     }
 }
 
@@ -42,7 +54,32 @@ public class VolatileDemo {
 
         // 资源类
         MyData myData = new MyData();
+        //可见性验证
+        // visibility(myData);
+        atomicity(myData);
 
+    }
+
+    private static void atomicity(MyData myData) {
+        for (int i = 0; i < 20; i++) {
+            new Thread(() -> {
+                for (int j = 0; j < 1000; j++) {
+                    myData.add();
+                    myData.atomicAdd();
+                }
+            }, String.valueOf(i)).start();
+        }
+        // 需要等待上面20个线程都计算完成后，在用main线程取得最终的结果值
+        // 这里判断线程数是否大于2，为什么是2？因为默认是有两个线程的，一个main线程，一个gc线程
+        while (Thread.activeCount() > 2) {
+            // yield表示不执行
+            Thread.yield();
+        }
+        System.out.println("volatile不保证原子性=======>" + myData.number);//19744
+        System.out.println("AtomicInteger保证原子性=======>" + myData.atomicInteger);//20000
+    }
+
+    private static void visibility(MyData myData) {
         // AAA线程 实现了Runnable接口的，lambda表达式
         new Thread(() -> {
 
@@ -75,7 +112,5 @@ public class VolatileDemo {
          * AAA     come in
          * AAA     update number value:60
          * 最后线程没有停止，并行没有输出  mission is over 这句话，说明没有用volatile修饰的变量，是没有可见性
-         */
-
-    }
+         */}
 }
