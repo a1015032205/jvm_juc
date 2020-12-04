@@ -25,13 +25,13 @@ public class Group {
         System.out.println(collect3);
         List<Person> personList = new ArrayList<>();
         personList.add(new Person("hepengju", "男", 20000));
-        personList.add(new Person("lisi"    , "男", 40000));
-        personList.add(new Person("wangwu"  , "男", 50000));
-        personList.add(new Person("zhaoliu" , "男", 60000));
+        personList.add(new Person("lisi", "男", 40000));
+        personList.add(new Person("wangwu", "男", 50000));
+        personList.add(new Person("zhaoliu", "男", 60000));
         personList.add(new Person("zhangsan", "男", 33333));
         personList.add(new Person("wgr", "男", 10000));
         Map<String, Person> collect = personList.stream().collect(Collectors.toMap(Person::getName, Function.identity()));
-        collect.forEach((name,p) -> System.out.println(name + ":"+p));
+        collect.forEach((name, p) -> System.out.println(name + ":" + p));
 
 
         List<String> items = Arrays.asList("apple", "banana", "apple", "orange", "banana");
@@ -77,9 +77,8 @@ public class Group {
 
 
         //reducing缩减操作
-//      list.stream()
-//                .map(String::toCharArray)
-//                .collect(Collectors.groupingBy(List::size, Collectors.reducing(new ArrayList<>(), (o1, o2) -> Stream.concat(Stream.of(o1.toString()), Stream.of(o2.toString())).collect(Collectors.groupingByConcurrent())))));
-//        System.out.println(collect3);
+        Map<Integer, List<?>> collect4 = list.stream().map(x -> Stream.of(x.toCharArray()).collect(Collectors.toList()))
+                .collect(Collectors.groupingBy(List::size, Collectors.reducing(new ArrayList<>(), (o1, o2) -> Stream.concat(Stream.of(o1.get(0).toString()), Stream.of(o2.get(0).toString())).collect(Collectors.toList()))));
+        System.out.println(collect4);
     }
 }

@@ -1,9 +1,9 @@
-package juc;
+package juc.forkjoin;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @Author: 秒度
@@ -32,6 +32,11 @@ class MyTask extends RecursiveTask<Integer> {
             for (int i = start; i <= end; i++) {
                 result += i;
             }
+            try {
+                TimeUnit.SECONDS.sleep(1L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         } else {
             //中间值  50
             int middle = (end + start) / 2;
@@ -40,21 +45,28 @@ class MyTask extends RecursiveTask<Integer> {
             //fork就是递归调用compute
             myTask01.fork();
             myTask02.fork();
+            invokeAll(myTask01, myTask02);
             result = myTask01.join() + myTask02.join();
         }
         return result;
     }
 }
 
+/**
+ * @author 秒度
+ */
 public class ForkJoinTaskDemo {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         MyTask myTask = new MyTask(0, 100);
-        ForkJoinPool pool = new ForkJoinPool();
-
-        ForkJoinTask<Integer> task = pool.submit(myTask);
-        System.out.println(task.get());  //5050
-
+        int core = Runtime.getRuntime().availableProcessors();
+        ForkJoinPool pool = new ForkJoinPool(core);
+        long start = System.currentTimeMillis();
+        Integer invoke = pool.invoke(myTask);
+        long end = System.currentTimeMillis();
+        System.out.println("耗时" + (end - start));
+        System.out.println(invoke);  //5050
+        //   System.out.println(task.get());  //5050
         pool.shutdown();
     }
 }
