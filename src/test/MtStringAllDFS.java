@@ -1,10 +1,10 @@
-package com.company.demo1;
+package test;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class MtStringAll {
+public class MtStringAllDFS {
     static List<List<Integer>> res = new ArrayList<>();
 
 

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="" />
+    <list default="true" id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/juc/lock/ReentrantReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/lock/SpinLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/util/CountDownLatchEnumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/util/CountryEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/demo1/MtStringAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MtStringAllDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/demo1/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juc/lock/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/lock/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juc/queue/ArrayBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/queue/ArrayBlockingQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juc/queue/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/queue/SynchronousQueueDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +29,47 @@
       <list>
         <option value="HTTP Request" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1605715946" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1605715934" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="newbranch" />
+                    <option name="lastUsedInstant" value="1605715921" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -34,7 +81,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1awjkYtbGGuCsnDejyr8ni2J4C9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="flattenModules" value="true" />
@@ -45,9 +94,11 @@
     <property name="HOTFIX_customHotfixCommitMessage_text" value="Tagging hotfix %name%" />
     <property name="JavaClassFindUsagesOptions.isSearchForTextOccurrences" value="false" />
     <property name="RELEASE_customTagCommitMessage_text" value="Tagging version %name%" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/single" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,16 +106,23 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="java8" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\WorkSpace\java8\src\single" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="juc.util" />
       <recent name="com.company.demo1" />
     </key>
   </component>
@@ -217,13 +275,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SaleTicket">
-    <configuration name="CodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.jvm.CodeBlock" />
+  <component name="RunManager" selected="Application.SynchronousQueueDemo">
+    <configuration name="CountDownLatchEnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.util.CountDownLatchEnumDemo" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.jvm.*" />
+          <option name="PATTERN" value="juc.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,13 +289,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JvmInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.jvm.JvmInfo" />
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.lock.Demo" />
       <module name="java8" />
-      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.jvm.*" />
+          <option name="PATTERN" value="juc.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +302,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.SaleTicket" />
+    <configuration name="ReentrantReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.lock.ReentrantReadWriteLockDemo" />
+      <module name="java8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.lock.SpinLockDemo" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="juc.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,25 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTwoStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.threaddemo.ThreadTwoStart" />
+    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.queue.SynchronousQueueDemo" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.threaddemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="jmm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.jvm.jmm" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.jvm.*" />
+          <option name="PATTERN" value="juc.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeBlock" />
-      <item itemvalue="Application.JvmInfo" />
-      <item itemvalue="Application.ThreadTwoStart" />
-      <item itemvalue="Application.jmm" />
-      <item itemvalue="Application.SaleTicket" />
+      <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.SpinLockDemo" />
+      <item itemvalue="Application.ReentrantReadWriteLockDemo" />
+      <item itemvalue="Application.CountDownLatchEnumDemo" />
+      <item itemvalue="Application.SynchronousQueueDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SaleTicket" />
-        <item itemvalue="Application.jmm" />
-        <item itemvalue="Application.ThreadTwoStart" />
-        <item itemvalue="Application.JvmInfo" />
-        <item itemvalue="Application.CodeBlock" />
+        <item itemvalue="Application.SynchronousQueueDemo" />
+        <item itemvalue="Application.CountDownLatchEnumDemo" />
+        <item itemvalue="Application.ReentrantReadWriteLockDemo" />
+        <item itemvalue="Application.SpinLockDemo" />
+        <item itemvalue="Application.Demo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +393,31 @@
       <workItem from="1605532889132" duration="4924000" />
       <workItem from="1605618888363" duration="4475000" />
       <workItem from="1605699107408" duration="11884000" />
+      <workItem from="1605784117734" duration="262000" />
+      <workItem from="1605789104087" duration="8933000" />
+      <workItem from="1605799585158" duration="2801000" />
+      <workItem from="1605884846907" duration="7592000" />
+      <workItem from="1606129609551" duration="2917000" />
+      <workItem from="1606220168269" duration="10892000" />
+      <workItem from="1606307808772" duration="8069000" />
+      <workItem from="1606387771231" duration="265000" />
+      <workItem from="1606388139616" duration="122000" />
+      <workItem from="1606388303980" duration="2000" />
+      <workItem from="1606389116813" duration="158000" />
+      <workItem from="1606389313988" duration="6121000" />
+      <workItem from="1606479415317" duration="30000" />
+      <workItem from="1606479502337" duration="4637000" />
+      <workItem from="1606736356139" duration="1121000" />
+      <workItem from="1606745633724" duration="1563000" />
+      <workItem from="1606824719949" duration="13397000" />
+      <workItem from="1606907697055" duration="765000" />
+      <workItem from="1606908690883" duration="1466000" />
+      <workItem from="1606912482891" duration="1806000" />
+      <workItem from="1606916981380" duration="4827000" />
+      <workItem from="1606993440864" duration="8705000" />
+      <workItem from="1607004887456" duration="4531000" />
+      <workItem from="1607092130872" duration="3268000" />
+      <workItem from="1607345526157" duration="8691000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605714340457</created>
@@ -350,105 +426,116 @@
       <option name="project" value="LOCAL" />
       <updated>1605714340457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1111">
+      <created>1605716023237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605716023237</updated>
+    </task>
+    <task id="LOCAL-00003" summary="8锁">
+      <created>1605802303920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605802303920</updated>
+    </task>
+    <task id="LOCAL-00004" summary="juc">
+      <created>1606230262817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606230262817</updated>
+    </task>
+    <task id="LOCAL-00005" summary="juc">
+      <created>1606230543552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606230543552</updated>
+    </task>
+    <task id="LOCAL-00006" summary="thread">
+      <created>1606321640779</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606321640779</updated>
+    </task>
+    <task id="LOCAL-00007" summary="heart">
+      <created>1606404455022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606404455022</updated>
+    </task>
+    <task id="LOCAL-00008" summary="single">
+      <created>1606834203840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606834203840</updated>
+    </task>
+    <task id="LOCAL-00009" summary="group">
+      <created>1606838794859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606838794859</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aba">
+      <created>1606922582226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606922582226</updated>
+    </task>
+    <task id="LOCAL-00011" summary="forkjoin">
+      <created>1607011074271</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607011074271</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="1111" />
+    <MESSAGE value="8锁" />
+    <MESSAGE value="juc" />
+    <MESSAGE value="thread" />
+    <MESSAGE value="heart" />
+    <MESSAGE value="single" />
+    <MESSAGE value="group" />
+    <MESSAGE value="aba" />
+    <MESSAGE value="forkjoin" />
+    <option name="LAST_COMMIT_MESSAGE" value="forkjoin" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1555" y="117" width="877" height="524" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605620572536">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1555" y="117" width="877" height="524" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605620572536" />
-    <state x="1085" y="376" key="#com.intellij.ide.util.MemberChooser" timestamp="1605704657013">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1085" y="376" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1605704657013" />
-    <state x="1088" y="438" key="#toString()_Generation_Settings" timestamp="1605022833186">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1088" y="438" key="#toString()_Generation_Settings/0.0.2560.1400@0.0.2560.1400" timestamp="1605022833186" />
-    <state x="878" y="178" key="CommitChangelistDialog2" timestamp="1605714339833">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="878" y="178" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714339833" />
-    <state width="420" height="630" key="DebuggerActiveHint" timestamp="1605535038031">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="420" height="630" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1605535038031" />
-    <state width="2516" height="387" key="GridCell.Tab.0.bottom" timestamp="1605714342863">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
-    <state width="2516" height="387" key="GridCell.Tab.0.center" timestamp="1605714342863">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
-    <state width="2516" height="387" key="GridCell.Tab.0.left" timestamp="1605714342863">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
-    <state width="2516" height="387" key="GridCell.Tab.0.right" timestamp="1605714342863">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605714342863" />
-    <state width="2516" height="558" key="GridCell.Tab.1.bottom" timestamp="1605628124249">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="558" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
-    <state width="2516" height="558" key="GridCell.Tab.1.center" timestamp="1605628124249">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="558" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
-    <state width="2516" height="558" key="GridCell.Tab.1.left" timestamp="1605628124249">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="558" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
-    <state width="2516" height="558" key="GridCell.Tab.1.right" timestamp="1605628124249">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2516" height="558" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605628124249" />
-    <state x="860" y="434" key="IDE.errors.dialog" timestamp="1602768737804">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="860" y="434" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602768737804" />
-    <state x="119" y="71" width="2373" height="1224" key="SettingsEditor" timestamp="1605714687682">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="119" y="71" width="2373" height="1224" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605714687682" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1605714985688">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714985688" />
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605714136759">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605714136759" />
-    <state x="1082" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605714307515">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1082" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714307515" />
-    <state x="1081" y="600" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605715001875">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1081" y="600" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605715001875" />
-    <state x="1069" y="550" width="564" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602768669006">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1069" y="550" width="564" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602768669006" />
-    <state x="936" y="330" key="run.anything.popup" timestamp="1602767715902">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602767715902" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605543287290">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605543287290" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalThreadStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -462,6 +549,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java8$Demo1.ic" NAME="Demo1 Coverage Results" MODIFIED="1589814582811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.demo1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java8$Group.ic" NAME="Group Coverage Results" MODIFIED="1606837888857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java8.*</FILTER>
     </SUITE>
   </component>
 </project>

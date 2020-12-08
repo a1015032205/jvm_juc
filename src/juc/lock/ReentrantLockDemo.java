@@ -60,7 +60,7 @@ class Phone implements Runnable {
 }
 
 
-public class Demo {
+public class ReentrantLockDemo {
     public static void main(String[] args) throws InterruptedException {
         Phone phone = new Phone();
         new Thread(() -> phone.sendSMS(), "t1").start();
@@ -73,7 +73,7 @@ public class Demo {
         t3.start();
         //执行2次start 报错  因为 start以后会把 threadStatus==>0
         //Exception in thread "main" java.lang.IllegalThreadStateException
-      //  t3.start();
+        //  t3.start();
         Thread t4 = new Thread(phone, "T4");
         t4.start();
 
