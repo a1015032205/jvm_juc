@@ -21,14 +21,21 @@ LinkedBlockingDeque：由链表结构组成的双向阻塞队列
  * @Date: 2020-11-25 20:44
  * @Description:
  */
-/*抛出异常	当阻塞队列满时：在往队列中add插入元素会抛出 IIIegalStateException：Queue full 当阻塞队列空时：再往队列中remove移除元素，会抛出NoSuchException
-特殊性	插入方法，成功true，失败false 移除方法：成功返回出队列元素，队列没有就返回空
-一直阻塞	当阻塞队列满时，生产者继续往队列里put元素，队列会一直阻塞生产线程直到put数据or响应中断退出， 当阻塞队列空时，消费者线程试图从队列里take元素，队列会一直阻塞消费者线程直到队列可用。
-超时退出	当阻塞队列满时，队里会阻塞生产者线程一定时间，超过限时后生产者线程会退出*/
+
 
 public class ArrayBlockingQueueDemo {
     public static void main(String[] args) throws InterruptedException {
         BlockingQueue<String> blockingQueue = new ArrayBlockingQueue<>(3);
+
+        //add -----  remove
+/*抛出异常	当阻塞队列满时：在往队列中add插入元素会抛出 IIIegalStateException：Queue full 当阻塞队列空时：再往队列中remove移除元素，会抛出NoSuchException
+  //offer -----  poll
+特殊性	插入方法，成功true，失败false 移除方法：成功返回出队列元素，队列没有就返回空
+  //put -----  take
+一直阻塞	当阻塞队列满时，生产者继续往队列里put元素，队列会一直阻塞生产线程直到put数据or响应中断退出， 当阻塞队列空时，消费者线程试图从队列里take元素，队列会一直阻塞消费者线程直到队列可用。
+  //offer -----  poll
+超时退出	当阻塞队列满时，队里会阻塞生产者线程一定时间，超过限时后生产者线程会退出*/
+
 //        System.out.println(blockingQueue.add("A"));//底层是offer
 //        System.out.println(blockingQueue.add("B"));
 //        System.out.println(blockingQueue.add("C"));
@@ -41,8 +48,10 @@ public class ArrayBlockingQueueDemo {
 
         //     System.out.println(blockingQueue.element()); //返回队列首个元素
 
+
         //  System.out.println(blockingQueue.offer("A"));//  满了就是false
         //      System.out.println(blockingQueue.poll()); //没有返回null
+
 
 //        blockingQueue.put("A"); //线程安全  队列满了就阻塞
 //        blockingQueue.put("A");
