@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/juc/lock/ReentrantReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/lock/SpinLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/util/CountDownLatchEnumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/util/CountryEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/demo1/MtStringAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MtStringAllDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/demo1/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/lock/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/lock/ReentrantLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/queue/ArrayBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/queue/ArrayBlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/queue/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/queue/SynchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/JvmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juc/prodandcon/ProdConsumerBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/prodandcon/ProdConsumerBlockingQueueDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,7 +101,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -122,6 +114,7 @@
       <recent name="E:\java\WorkSpace\java8\src\single" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="juc.threadPool" />
       <recent name="juc.util" />
       <recent name="com.company.demo1" />
     </key>
@@ -275,13 +268,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronousQueueDemo">
-    <configuration name="CountDownLatchEnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.util.CountDownLatchEnumDemo" />
+  <component name="RunManager" selected="Application.JvmTest">
+    <configuration name="JvmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.JvmTest" />
+      <module name="java8" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -Xms10m -Xmx10m -XX:SurvivorRatio=8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewDemoQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.prodandcon.NewDemoQueue" />
+      <module name="java8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdConsumerBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.prodandcon.ProdConsumerBlockingQueueDemo" />
+      <module name="java8" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:NewSize=10485760 -XX:MaxNewSize=10485760 -Xms20M -Xmx20M -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=10485760" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.SaleTicket" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.util.*" />
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,77 +305,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.lock.Demo" />
+    <configuration name="ScheduledThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.threadPool.ScheduledThreadPoolExecutorDemo" />
       <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.lock.ReentrantReadWriteLockDemo" />
-      <module name="java8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.lock.SpinLockDemo" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.queue.SynchronousQueueDemo" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo (1)" />
-      <item itemvalue="Application.SpinLockDemo" />
-      <item itemvalue="Application.ReentrantReadWriteLockDemo" />
-      <item itemvalue="Application.CountDownLatchEnumDemo" />
-      <item itemvalue="Application.SynchronousQueueDemo" />
+      <item itemvalue="Application.SaleTicket" />
+      <item itemvalue="Application.NewDemoQueue" />
+      <item itemvalue="Application.ProdConsumerBlockingQueueDemo" />
+      <item itemvalue="Application.ScheduledThreadPoolExecutorDemo" />
+      <item itemvalue="Application.JvmTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SynchronousQueueDemo" />
-        <item itemvalue="Application.CountDownLatchEnumDemo" />
-        <item itemvalue="Application.ReentrantReadWriteLockDemo" />
-        <item itemvalue="Application.SpinLockDemo" />
-        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.JvmTest" />
+        <item itemvalue="Application.ProdConsumerBlockingQueueDemo" />
+        <item itemvalue="Application.NewDemoQueue" />
+        <item itemvalue="Application.ScheduledThreadPoolExecutorDemo" />
+        <item itemvalue="Application.SaleTicket" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +383,11 @@
       <workItem from="1606993440864" duration="8705000" />
       <workItem from="1607004887456" duration="4531000" />
       <workItem from="1607092130872" duration="3268000" />
-      <workItem from="1607345526157" duration="8691000" />
+      <workItem from="1607345526157" duration="8982000" />
+      <workItem from="1607425477518" duration="11910000" />
+      <workItem from="1607518628960" duration="620000" />
+      <workItem from="1607519620106" duration="4311000" />
+      <workItem from="1607861741435" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605714340457</created>
@@ -496,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607011074271</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="juc end">
+      <created>1607440196050</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607440196050</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +502,9 @@
     <MESSAGE value="group" />
     <MESSAGE value="aba" />
     <MESSAGE value="forkjoin" />
-    <option name="LAST_COMMIT_MESSAGE" value="forkjoin" />
+    <MESSAGE value="干了点撒" />
+    <MESSAGE value="juc end" />
+    <option name="LAST_COMMIT_MESSAGE" value="juc end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
