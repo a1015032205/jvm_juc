@@ -104,6 +104,7 @@ public class ProdConsumerBlockingQueueDemo {
             System.out.println("");
             System.out.println("");
             try {
+
                 myResource.myProd();
                 System.out.println("");
                 System.out.println("");
