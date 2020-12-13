@@ -311,6 +311,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SaleTicket" />
       <item itemvalue="Application.NewDemoQueue" />
@@ -386,7 +397,7 @@
       <workItem from="1607425477518" duration="11910000" />
       <workItem from="1607518628960" duration="620000" />
       <workItem from="1607519620106" duration="4311000" />
-      <workItem from="1607861741435" duration="1733000" />
+      <workItem from="1607861741435" duration="2262000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605714340457</created>
