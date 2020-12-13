@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/JvmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juc/prodandcon/ProdConsumerBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/prodandcon/ProdConsumerBlockingQueueDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -387,7 +386,7 @@
       <workItem from="1607425477518" duration="11910000" />
       <workItem from="1607518628960" duration="620000" />
       <workItem from="1607519620106" duration="4311000" />
-      <workItem from="1607861741435" duration="725000" />
+      <workItem from="1607861741435" duration="1733000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605714340457</created>
@@ -473,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607440196050</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test git">
+      <created>1607863030750</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607863030750</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +510,8 @@
     <MESSAGE value="forkjoin" />
     <MESSAGE value="干了点撒" />
     <MESSAGE value="juc end" />
-    <option name="LAST_COMMIT_MESSAGE" value="juc end" />
+    <MESSAGE value="test git" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

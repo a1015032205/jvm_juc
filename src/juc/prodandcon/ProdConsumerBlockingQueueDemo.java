@@ -98,13 +98,11 @@ public class ProdConsumerBlockingQueueDemo {
     public static void main(String[] args) {
         // 传入具体的实现类， ArrayBlockingQueue
         MyResource myResource = new MyResource(new ArrayBlockingQueue<String>(10));
-
         new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + "\t 生产线程启动");
             System.out.println("");
             System.out.println("");
             try {
-
                 myResource.myProd();
                 System.out.println("");
                 System.out.println("");
