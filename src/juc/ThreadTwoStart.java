@@ -1,4 +1,4 @@
-package com.company.threaddemo;
+package juc;
 
 /**
  * @Author: 秒度

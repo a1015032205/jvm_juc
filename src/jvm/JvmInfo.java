@@ -1,4 +1,4 @@
-package com.company.jvm;
+package jvm;
 
 import java.util.Random;
 

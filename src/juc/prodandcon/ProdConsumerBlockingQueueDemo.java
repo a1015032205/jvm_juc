@@ -110,8 +110,6 @@ public class ProdConsumerBlockingQueueDemo {
                 e.printStackTrace();
             }
         }, "prod").start();
-
-
         new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + "\t 消费线程启动");
 
