@@ -1,4 +1,4 @@
-package com.company.jvm;
+package jvm;
 
 /**
  * @Author: 秒度

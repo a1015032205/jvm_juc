@@ -72,7 +72,7 @@ class MyResource {
         while (FLAG) {
             // 2秒存入1个data
             retValue = blockingQueue.poll(2L, TimeUnit.SECONDS);
-            if (retValue != null && retValue != "") {
+            if (retValue != null && !"".equals(retValue)) {
                 System.out.println(Thread.currentThread().getName() + "\t 消费队列:" + retValue + "成功");
             } else {
                 FLAG = false;
@@ -98,7 +98,6 @@ public class ProdConsumerBlockingQueueDemo {
     public static void main(String[] args) {
         // 传入具体的实现类， ArrayBlockingQueue
         MyResource myResource = new MyResource(new ArrayBlockingQueue<String>(10));
-
         new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + "\t 生产线程启动");
             System.out.println("");
@@ -111,8 +110,6 @@ public class ProdConsumerBlockingQueueDemo {
                 e.printStackTrace();
             }
         }, "prod").start();
-
-
         new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + "\t 消费线程启动");
 

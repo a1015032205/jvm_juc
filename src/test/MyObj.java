@@ -1,4 +1,4 @@
-package com.company.classload;
+package test;
 
 import java.util.concurrent.ConcurrentHashMap;
 

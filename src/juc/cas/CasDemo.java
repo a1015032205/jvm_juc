@@ -1,4 +1,4 @@
-package cas;
+package juc.cas;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Author: 秒度
  * @Email: fangxin.md@Gmail.com
  * @Date: 2020-12-02 20:51
- * @Description: cas
+ * @Description: juc.cas
  */
 /*
 CAS的全称是Compare-And-Swap，它是CPU并发原语
