@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jvm/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/GCRootDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/HelloGC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cas/AbaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/cas/AbaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cas/CasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/cas/CasDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/classload/MyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/jvm/CodeBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm/CodeBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/jvm/JvmInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm/JvmInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/jvm/jmm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm/jmm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/threaddemo/ThreadTwoStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/ThreadTwoStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/prodandcon/ProdConsumerBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/prodandcon/ProdConsumerBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/ReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/SoftReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/WeakHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/WeakReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ContaxtDmeo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MailList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +67,11 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8.0_261/src.zip!/java/lang/ref/SoftReference.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8.0_261/src.zip!/java/lang/ref/Reference.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/layoutlib-jre11-27.0.0.0.jar!/android/graphics/Bitmap.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -112,6 +112,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -123,6 +126,7 @@
       <recent name="E:\java\WorkSpace\java8\src\single" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reference" />
       <recent name="juc.threadPool" />
       <recent name="juc.util" />
       <recent name="com.company.demo1" />
@@ -277,13 +281,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JvmInfo">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.DeadLock" />
+  <component name="RunManager" selected="Application.MailList">
+    <configuration name="ContaxtDmeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ContaxtDmeo" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +295,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCRootDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.GCRootDemo" />
+    <configuration name="MailList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MailList" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,20 +308,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.HelloGC" />
+    <configuration name="SoftReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.SoftReferenceDemo" />
       <module name="java8" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
+      <option name="VM_PARAMETERS" value="-Xms5m -Xmx5m -XX:+PrintGCDetails" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JvmInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.JvmInfo" />
+    <configuration name="WeakHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.WeakHashMapDemo" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,10 +329,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JvmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.JvmTest" />
+    <configuration name="WeakReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.WeakReferenceDemo" />
       <module name="java8" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -Xms10m -Xmx10m -XX:SurvivorRatio=8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -347,19 +356,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JvmTest" />
-      <item itemvalue="Application.DeadLock" />
-      <item itemvalue="Application.GCRootDemo" />
-      <item itemvalue="Application.HelloGC" />
-      <item itemvalue="Application.JvmInfo" />
+      <item itemvalue="Application.SoftReferenceDemo" />
+      <item itemvalue="Application.WeakReferenceDemo" />
+      <item itemvalue="Application.WeakHashMapDemo" />
+      <item itemvalue="Application.ContaxtDmeo" />
+      <item itemvalue="Application.MailList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JvmInfo" />
-        <item itemvalue="Application.HelloGC" />
-        <item itemvalue="Application.GCRootDemo" />
-        <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.JvmTest" />
+        <item itemvalue="Application.MailList" />
+        <item itemvalue="Application.ContaxtDmeo" />
+        <item itemvalue="Application.WeakHashMapDemo" />
+        <item itemvalue="Application.WeakReferenceDemo" />
+        <item itemvalue="Application.SoftReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +431,9 @@
       <workItem from="1607518628960" duration="620000" />
       <workItem from="1607519620106" duration="4311000" />
       <workItem from="1607861741435" duration="2908000" />
-      <workItem from="1608040258571" duration="5778000" />
+      <workItem from="1608040258571" duration="6588000" />
+      <workItem from="1608117227164" duration="9922000" />
+      <workItem from="1608132764439" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605714340457</created>
