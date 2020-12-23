@@ -1,4 +1,4 @@
-package jvm;
+package juc.threadDemo;
 
 import java.util.concurrent.TimeUnit;
 

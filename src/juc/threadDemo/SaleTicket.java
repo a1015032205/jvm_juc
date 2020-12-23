@@ -1,12 +1,9 @@
-package juc;
+package juc.threadDemo;
 
-import java.util.ArrayList;
 import java.util.Random;
 import java.util.Vector;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**

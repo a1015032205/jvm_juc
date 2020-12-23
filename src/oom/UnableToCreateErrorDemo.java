@@ -29,5 +29,8 @@ public class UnableToCreateErrorDemo {
                 }
             }, String.valueOf(i)).start(); //Exception in thread "main" java.lang.OutOfMemoryError: unable to create new native thread
         }
+        //放到linux上java编译  带包名的  javac -d . XXX.java
+        //运行   java 包名.XXX
+
     }
 }
