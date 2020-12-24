@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b386395-c50c-44a0-8f85-1dc1b9d35a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thread/Demo01SpringPool58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locksupport/LockSupportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locksupport/LockSupportTxt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tensort/冒泡.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tensort/堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tensort/希尔.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tensort/归并.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tensort/快速.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tensort/插入.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tensort/选择.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/EightThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/EightThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/ListThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/ListThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/PrintThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/PrintThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/SaleTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/SaleTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/ThreadTwoStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/ThreadTwoStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/VolatileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/lock/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/lock/ReentrantLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvm/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/threadDemo/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oom/UnableToCreateErrorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oom/UnableToCreateErrorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aqs/AbstractQueuedSynchronizertTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aqs/AbstractQueuedSynchronizertTxt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +111,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jdk1.8.0_261/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -382,19 +360,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.UnableToCreateErrorDemo" />
       <item itemvalue="Application.TwoSum" />
@@ -478,7 +443,9 @@
       <workItem from="1608380469570" duration="1932000" />
       <workItem from="1608473813337" duration="1308000" />
       <workItem from="1608552342556" duration="6242000" />
-      <workItem from="1608725370077" duration="4860000" />
+      <workItem from="1608725370077" duration="7145000" />
+      <workItem from="1608813382110" duration="2338000" />
+      <workItem from="1608816477549" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605714340457</created>
