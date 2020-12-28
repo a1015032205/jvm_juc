@@ -1,18 +1,0 @@
-
-o	java:S109K"SAssign this magic number 10 to a well-named constant, and use the constant instead.(…¾î§8êæ¸áÒ.
-o	java:S109M"SAssign this magic number 10 to a well-named constant, and use the constant instead.(³œ–È8êæ¸áÒ.
-t	java:S109N"SAssign this magic number 10 to a well-named constant, and use the constant instead.(œı²Èùÿÿÿÿ8±Ü¦ò©.
-N
-java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8°•¹áÒ.
-]
-java:S1213(";Move this constructor to comply with Java Code Conventions.(´“‘úÿÿÿÿ8êæ¸áÒ.
-P
-java:S2039".Explicitly declare the visibility for "count".(Å˜Ó¢ıÿÿÿÿ8êæ¸áÒ.
-]
-java:S1213-";Move this constructor to comply with Java Code Conventions.(¾†ŠĞúÿÿÿÿ8êæ¸áÒ.
-{
-java:S2972"^Reduce this class from 36 lines to the maximum allowed 25 or externalize it in a public class.(©ÅèÈ8êæ¸áÒ.
-P
-java:S2039".Explicitly declare the visibility for "leave".(Å€¿Ëıÿÿÿÿ8êæ¸áÒ.
-o	java:S109P"SAssign this magic number 10 to a well-named constant, and use the constant instead.(³ûªÖ8êæ¸áÒ.
-l	java:S103"KSplit this 129 characters long line (which is greater than 120 authorized).(ŒÕûêûÿÿÿÿ8‚¾¹áÒ.
