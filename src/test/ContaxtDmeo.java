@@ -1,24 +1,22 @@
 package test;
 
 import java.io.*;
-import java.util.Comparator;
-import java.util.Scanner;
-import java.util.TreeSet;
-
-/**
- * @Author: 秒度
- * @Email: fangxin.md@Gmail.com
- * @Date: 2020-12-16 21:57
- * @Description:
- */
+import java.util.*;
 
 public class ContaxtDmeo {
+    private static final String PATH = "I:\\info.txt";
+
     public static void main(String[] agrs) throws Exception {
 
-        TreeSet<User> info = new TreeSet<>(new InfoComp());
+        ArrayList<Object> objects = new ArrayList<>();
+        int size = objects.size();
+        objects.add(1);
+        TreeSet<User> info = new TreeSet<User>(new InfoComp());
 
-        File file = new File("I:\\UserInfo.txt");
-
+        File file = new File(PATH);
+        if (!file.exists()) {
+            file.createNewFile();
+        }
         if (!(file.length() == 0)) {
             ObjectInputStream objIn = new ObjectInputStream(new FileInputStream(file));
             User temp;
@@ -26,16 +24,18 @@ public class ContaxtDmeo {
                 info.add(temp);
             }
         }
+        FileWriter writer = new FileWriter(PATH);
 
-        ObjectOutputStream obj = new ObjectOutputStream(new FileOutputStream(file));
+        //  ObjectOutputStream obj = new ObjectOutputStream(new FileOutputStream(file));
 
         boolean flag = true;
         while (flag) {
-            menu();
+            Menu();
             int num = new Scanner(System.in).nextInt();
+
             switch (num) {
                 case 1:
-                    addContext(info, obj);
+                    addContaxt(info);
                     break;
                 case 2:
                     showAll(info);
@@ -44,19 +44,16 @@ public class ContaxtDmeo {
                     removeUser(info);
                     break;
                 case 4:
-                    exit(info, obj);
+                    exit(info, writer);
                     flag = false;
                     System.out.println("程序已退出！");
-                    break;
-                default:
-                    System.out.println("不能没有default！");
                     break;
             }
         }
 
     }
 
-    public static void menu() {
+    public static void Menu() {
         System.out.println("\t");
         System.out.println("===欢迎进入通讯录系统===");
         System.out.println("\t");
@@ -67,14 +64,18 @@ public class ContaxtDmeo {
         System.out.println("选择4：保存并退出");
     }
 
-    public static void addContext(TreeSet<User> info, ObjectOutputStream obj) throws Exception {
+    public static void addContaxt(TreeSet<User> info) {
 
         System.out.println("input your name");
         String name = new Scanner(System.in).next();
         System.out.println("telNumber");
-        int num = new Scanner(System.in).nextInt();
-        for (User u : info) {
-            if (u.getName().equals(name) && u.getNum() == num) {
+        String num = new Scanner(System.in).next();
+
+
+        Iterator<User> it = info.iterator();
+        while (it.hasNext()) {
+            User u = it.next();
+            if (u.getName().equals(name) && u.getNum().equalsIgnoreCase(num)) {
                 System.out.println("联系人已存在");
                 break;
             }
@@ -84,7 +85,9 @@ public class ContaxtDmeo {
     }
 
     public static void showAll(TreeSet<User> info) throws Exception {
-        for (User u : info) {
+        Iterator<User> it = info.iterator();
+        while (it.hasNext()) {
+            User u = it.next();
             System.out.println(u.toString());
         }
     }
@@ -92,34 +95,46 @@ public class ContaxtDmeo {
     public static void removeUser(TreeSet<User> info) {
         System.out.println("输入姓名");
         String name = new Scanner(System.in).next();
-        int num = 0;
-        for (User u : info) {
-            if (u.getName().equals(name)) {
+        String num = "0";
+        Iterator<User> it = info.iterator();
+        while (it.hasNext()) {
+            User u = it.next();
+            if (u.getName().equals(name))
                 num = u.getNum();
-            }
         }
-        if (num == 0) {
+        if ("0".equalsIgnoreCase(num))
             System.out.println("没有找到该联系人");
-        } else {
+        else {
             info.remove(new User(name, num));
             System.out.println("删除成功");
         }
     }
 
-    public static void exit(TreeSet<User> info, ObjectOutputStream obj) throws Exception {
-        for (User user : info) {
-            obj.writeObject(user);
+    public static void exit(TreeSet<User> info, FileWriter writer) throws Exception {
+
+        if (info.size() != 0) {
+
+            info.forEach(x -> {
+                try {
+                    String str = x.toString();
+                    System.out.println(str);
+                    writer.write(str + "\r\n");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            });
+            writer.close();
         }
-        obj.writeObject(null);
-        obj.close();
+
+
     }
 }
 
 class User implements Serializable {
     private String name;
-    private int num;
+    private String num;
 
-    User(String name, int num) {
+    User(String name, String num) {
         this.name = name;
         this.num = num;
     }
@@ -128,7 +143,7 @@ class User implements Serializable {
         return name;
     }
 
-    public int getNum() {
+    public String getNum() {
         return num;
     }
 
@@ -137,26 +152,16 @@ class User implements Serializable {
         return name + "......." + num;
     }
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
 }
 
 class InfoComp implements Comparator<User> {
-    @Override
     public int compare(User u1, User u2) {
         int temp = u1.getName().compareTo(u2.getName());
-        if (temp == 0) {
-            return Integer.compare(u1.getNum(), u2.getNum());
-        }
+        if (temp == 0)
+            return u1.getNum().compareTo(u2.getNum());
         return temp;
     }
 }
+
 
 

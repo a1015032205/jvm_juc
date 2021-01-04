@@ -22,14 +22,14 @@ import java.util.TreeSet;
  */
 public class MailList {
 
-    private static Scanner sc = new Scanner(System.in);
+    private static final Scanner sc = new Scanner(System.in);
     private static Integer index = 1;
     private static TreeSet<UserInfo> infoList = new TreeSet<>(Comparator.comparingInt(UserInfo::getId));
-
+    private static final String PATH = "F:\\UserInfo.txt";
 
     public static void main(String[] args) throws Exception {
 
-        readFileContent("I:\\UserInfo.txt");
+        readFileContent(PATH);
 
         if (infoList.size() != 0) {
             index = infoList.last().getId();
@@ -107,6 +107,7 @@ public class MailList {
             return;
         }
         System.out.println("====================现有联系人如下：===========================");
+        show();
         System.out.print("输入要删除序号:");
         int i = sc.nextInt();
         UserInfo user = infoList.stream().filter(x -> x.getId() == i).findFirst().orElseThrow(() -> new RuntimeException("输入不存在"));
@@ -123,7 +124,7 @@ public class MailList {
     public static void exit() throws IOException {
 
         if (infoList.size() != 0) {
-            FileWriter writer = new FileWriter("I:\\UserInfo.txt");
+            FileWriter writer = new FileWriter(PATH);
             infoList.forEach(x -> {
                 try {
                     String str = x.toString();
@@ -139,7 +140,11 @@ public class MailList {
     }
 
     public static void readFileContent(String path) throws Exception {
-        FileReader fileReader = new FileReader(path);
+        File file = new File(path);
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+        FileReader fileReader = new FileReader(file);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line = bufferedReader.readLine();
         while (line != null && !"".equalsIgnoreCase(line)) {

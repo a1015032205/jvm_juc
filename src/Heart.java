@@ -7,7 +7,7 @@
 
 public class Heart {
     public static void main(String[] args) throws InterruptedException {
-        char[] chars = " 萌萌 Little lovely ❤".toCharArray();
+        char[] chars = " 春雨 Little lovely ❤".toCharArray();
         int length = 0;
         int num = chars.length;
         int len = 0;
