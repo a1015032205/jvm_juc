@@ -1,18 +1,17 @@
 package test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * @Author: 秒度
- * @Email: fangxin.md@Gmail.com
- * @Date: 2020-12-09 21:28
- * @Description:
+ * @Author 秒度
+ * @Email fangxin.md@Gmail.com
+ * @Date 2020/12/9 3:10 下午
+ * @Description
  */
-
 public class JvmTest {
-    public static void main(String[] args) {
-        byte[] bytes = new byte[1024 * 1024 * 7];
-        System.out.println("111");
-    }
+	public static void main(String[] args) {
+		for (int i = 0; i < 100; i++) {
+			byte[] bytes = new byte[1024 * 10*10*10];
+			System.out.println(bytes);
+		}
+
+	}
 }
