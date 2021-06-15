@@ -33,11 +33,11 @@ class SumTask extends RecursiveTask<Long> {
             for (int i = start; i < end; i++) {
                 sum += array[i];
             }
-            try {
-                TimeUnit.SECONDS.sleep(1L);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                TimeUnit.SECONDS.sleep(1L);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
             System.out.println(String.format("compute %d~%d = %d", start, end, sum));
             return sum;
         }
@@ -47,11 +47,11 @@ class SumTask extends RecursiveTask<Long> {
         SumTask subtask1 = new SumTask(this.array, start, middle);
         SumTask subtask2 = new SumTask(this.array, middle, end);
         invokeAll(subtask1, subtask2);
-        Long subresult1 = subtask1.join();
-        Long subresult2 = subtask2.join();
-        Long result = subresult1 + subresult2;
-        System.out.println("result = " + subresult1 + " + " + subresult2 + " ==> " + result);
-        return result;
+       // Long subresult1 = subtask1.join();
+       //// Long subresult2 = subtask2.join();
+      //  Long result = subresult1 + subresult2;
+      //  System.out.println("result = " + subresult1 + " + " + subresult2 + " ==> " + result);
+        return subtask1.join()+subtask2.join();
     }
 }
 

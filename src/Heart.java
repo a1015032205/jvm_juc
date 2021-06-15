@@ -7,12 +7,12 @@
 
 public class Heart {
     public static void main(String[] args) throws InterruptedException {
-        char[] chars = " 春雨 Little lovely ❤".toCharArray();
+        char[] chars = " 刀妹 I Miss You ".toCharArray();
         int length = 0;
         int num = chars.length;
         int len = 0;
         for (float i = 1.5f; i > -1.5f; i -= 0.15f) {
-            for (float j = -1.5f; j < 1.5f; j += 0.037f) {
+            for (float j = -1.5f; j < 1.5f; j += 0.05f) {
                 float a = i * i + j * j - 1;
                 if ((a * a * a - j * j * i * i * i) <= 0.0f) {
                     if (length >= num) {
